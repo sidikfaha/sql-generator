@@ -5,7 +5,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "lint": "eslint \"**/*.{ts,vue}\" --fix"
+    "lint": "eslint \"**/*.{ts,vue}\" --fix",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.4",
